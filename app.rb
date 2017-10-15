@@ -47,6 +47,7 @@ class App < Sinatra::Base
       total = num1.to_i * num2.to_i
       "#{total}"
     else
+      "hmmm"
     end
   end
 
