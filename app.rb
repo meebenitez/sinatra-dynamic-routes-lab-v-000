@@ -17,7 +17,7 @@ class App < Sinatra::Base
     num = params[:number]
     user_phrase = params[:phrase]
     num = num.to_i
-    num * "#{user_phrase}"
+    "#{user_phrase}" * num
   end
 
 end
