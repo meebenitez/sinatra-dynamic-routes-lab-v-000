@@ -17,7 +17,7 @@ class App < Sinatra::Base
     phrase = params[:phrase]
     num = params[:num]
     num = num.to_i
-    "#{squared_num}"
+    num.times { puts phrase }
   end
 
 end
