@@ -5,5 +5,6 @@ class App < Sinatra::Base
     forward_name = params[:name]
     backward_name = forward_name.reverse
     "#{backward_name}"
+  end
 
 end
