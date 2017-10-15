@@ -30,7 +30,7 @@ class App < Sinatra::Base
     "#{world_1} " + "#{world_2} " + "#{world_3} " + "#{world_4} " + "#{world_5}."
   end
 
-  get "/:operation/:number1/:number2" do 
+  get "/:operation/:number1/:number2" do
     operator = params[:operation]
     num1 = params[:number1]
     num2 = params[:number2]
