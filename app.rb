@@ -10,8 +10,7 @@ class App < Sinatra::Base
   get "/square/:number" do
     num = params[:number]
     squared_num = num.to_i * num.to_i
-    backward_name = forward_name.reverse
-    "#{backward_name}"
+    "#{squared_num}"
   end
 
 end
