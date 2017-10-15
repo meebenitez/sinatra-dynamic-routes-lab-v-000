@@ -34,6 +34,6 @@ class App < Sinatra::Base
     operator = params[:operation]
     num1 = params[:number1]
     num2 = params[:number2]
-    
+  end
 
 end
