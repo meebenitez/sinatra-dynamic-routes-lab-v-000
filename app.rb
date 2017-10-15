@@ -34,6 +34,13 @@ class App < Sinatra::Base
     operator = params[:operation]
     num1 = params[:number1]
     num2 = params[:number2]
+    if operator = "subtract"
+    elsif operator = "add"
+      total = num1.to_i + num2.to_i 
+    elsif operator = "divide"
+    elsif operator = "multiply"
+    else
+    end
   end
 
 end
