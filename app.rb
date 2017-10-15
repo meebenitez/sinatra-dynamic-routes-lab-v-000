@@ -27,4 +27,6 @@ class App < Sinatra::Base
     world_4 = params[:word4]
     world_5 = params[:word5]
 
+    "#{world_1} " + "#{world_2} " + "#{world_3} " + "#{world_4} " + "#{world_5}."
+
 end
