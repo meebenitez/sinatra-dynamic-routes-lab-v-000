@@ -20,4 +20,7 @@ class App < Sinatra::Base
     "#{user_phrase}" * num
   end
 
+  get "/say/:word1/:word2/:word3/:word4/:word5" do 
+    world_1 = params[:word1]
+
 end
