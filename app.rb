@@ -13,4 +13,10 @@ class App < Sinatra::Base
     "#{squared_num}"
   end
 
+  get "/square/:number" do
+    num = params[:number]
+    squared_num = num.to_i * num.to_i
+    "#{squared_num}"
+  end
+
 end
