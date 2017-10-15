@@ -39,10 +39,13 @@ class App < Sinatra::Base
       "#{total}"
     elsif operator = "add"
       total = num1.to_i + num2.to_i
+      "#{total}"
     elsif operator = "divide"
       total = num1.to_i / num2.to_i
+      "#{total}"
     elsif operator = "multiply"
       total = num1.to_i * num2.to_i
+      "#{total}"
     else
     end
   end
